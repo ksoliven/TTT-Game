@@ -58,11 +58,16 @@ body{
     cursor: not-allowed;
 }
 
+
 .cell.x::before,
-.cell.x::after,
-.cell.circle::before {
-    background-color: black;
+.cell.x::after{
+    background-color: red;
 }
+
+.cell.circle::before{
+    background-color: blue;
+}
+
 
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
